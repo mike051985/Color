@@ -12,6 +12,7 @@ body {
     border: 3px solid #666666;
     margin: 0 auto;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .btn-hero {
@@ -33,19 +34,11 @@ h2 {
 }
 
 h1 {
-    font-size: 1.5rem;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 2em;
     color: #000000;
     margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-a:hover,
-a:focus {
-    color: #2f4f4f;
-    font-weight: bold;
 }
 
 
@@ -57,78 +50,23 @@ a:focus {
     overflow: hidden;
 }
 
-.container-flex {
-    display: flex;
-    justify-content: space-between;
-}
-
-header {
-    padding: 1em 0;
-    margin-bottom: 2em;
-    border-bottom: #000000 0.1rem solid;
-}
-
-header a {
-    text-transform: uppercase;
-}
-
-@media (max-width: 675px) {
-    .container-flex {
-        flex-direction: column;
-    }
-    header {
-        text-align: center;
-    }
-}
-
-
-/* Navigation */
-
-nav ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-nav li {
-    margin-left: 2em;
-}
-
-nav a {
-    font-weight: 700;
-    color: #000000;
-    padding: 0.25em 0;
-}
-
-@media (max-width: 675px) {
-    nav ul {
-        flex-direction: column;
-    }
-    nav li {
-        margin: 0.2em 0;
-    }
-}
-
 
 /* Background Color*/
 
 .bg-color {
     text-align: center;
     font-size: 1.5rem;
-    padding-top: 1rem;
+    padding-top: 1em;
     max-width: 400px;
-    margin: 5em auto 3rem auto;
-    border: 0.1rem solid #000000;
+    margin: 3em auto 3em auto;
+    border: 5px solid #000000;
+    border-radius: 5px;
 }
 
 @media (max-width: 675px) {
     .bg-color {
-        text-align: center;
         font-size: 1rem;
-        padding-top: 1rem;
         max-width: 300px;
-        margin: 4em auto 3rem auto;
-        border: 0.1rem solid #000000;
     }
 }
 
